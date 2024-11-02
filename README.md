@@ -1,4 +1,4 @@
-Tip App
+Tip App:-
 Tip App is a simple Android application built using Kotlin and Jetpack Compose. It allows users to calculate the total amount per person when a bill is split among multiple people and includes an adjustable tip percentage.
 
 Bill Split Calculation: Calculate the total cost per person by dividing the bill.
