@@ -188,7 +188,7 @@ fun BillForm(modifier: Modifier=Modifier,onValChange:(String)->Unit={}){
 
             //TIP ROW
             Row(modifier = Modifier.padding(2.dp)) {
-                Text(text = "Tips", modifier = modifier.align(alignment = Alignment.CenterVertically))
+                Text(text = "Tip", modifier = modifier.align(alignment = Alignment.CenterVertically))
                 Spacer(modifier = Modifier.width(170.dp))
                 Text("${tipAmountState.value}", modifier = modifier.align(alignment = Alignment.CenterVertically))
             }
