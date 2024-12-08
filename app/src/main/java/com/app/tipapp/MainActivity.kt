@@ -84,7 +84,7 @@ fun MyApp() {
 
 @Preview(showBackground = true)
 @Composable
-fun ToHeader(totalPerPerson:Double= 134.0){
+fun ToHeader(totalPerPerson:Double= 0.0){
         Surface(modifier = Modifier.fillMaxWidth().height(150.dp).clip(shape = CircleShape.copy(all = CornerSize(12.dp))), color = Color(0XFFE9D7F7)) {
          Column(modifier = Modifier.padding(12.dp), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement =  Arrangement.Center) {
              val total = "%.2f".format(totalPerPerson)
